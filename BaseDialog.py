@@ -43,10 +43,10 @@ class BaseDialog ( wx.Dialog ):
 
 		m_b_sizer.Add( self.m_static_text_length, 0, wx.ALL, 5 )
 
-		self.m_text_ctrl_length = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_text_ctrl_length.SetMinSize( wx.Size( 9999,-1 ) )
+		self.m_spin_ctrl_length = wx.SpinCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, wx.ALIGN_RIGHT|wx.SP_ARROW_KEYS, 1, 100000, 5 )
+		self.m_spin_ctrl_length.SetMinSize( wx.Size( 9999,-1 ) )
 
-		m_b_sizer.Add( self.m_text_ctrl_length, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_spin_ctrl_length, 0, wx.ALL, 5 )
 
 		self.m_static_text_results = wx.StaticText( self, wx.ID_ANY, u"Results:", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_static_text_results.Wrap( -1 )
