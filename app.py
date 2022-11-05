@@ -1,15 +1,15 @@
+# import module
 import wx
+from PWDGenFrame import PWDGenFrame
 
-from PasswordGeneratorFrame import PasswordGeneratorFrame
-
-# Next, create an application object.
+# buat objek aplikasi
 app = wx.App()
 
-# Then a frame.
-frm = PasswordGeneratorFrame()
+# buat frame
+frm = PWDGenFrame()
 
-# Show it.
+# tampilkan
 frm.Show()
 
-# Start the event loop.
+# mulai event loop
 app.MainLoop()

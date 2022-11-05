@@ -1,7 +1,7 @@
 from MainFrame import MainFrame
 
 
-class PasswordGeneratorFrame (MainFrame):
+class PWDGenFrame (MainFrame):
 
     def __init__(self):
         MainFrame.__init__(self, None)
