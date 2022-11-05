@@ -57,6 +57,6 @@ class PWDGenDialog (BaseDialog):
     def set_clipboard_text(self, value):
         text_data_object = wx.TextDataObject()
         text_data_object.SetText(value)
-        if wx.TheClipboard.IsOpened() or wx.TheClipboard.Open():
+        if wx.TheClipboard.Open():
             wx.TheClipboard.SetData(text_data_object)
             wx.TheClipboard.Close()
