@@ -25,7 +25,7 @@ Buat virtual environment:
 python -m venv venv
 ```
 
-Untuk di windows agar venv bisa diaktikan:
+Untuk di windows agar venv bisa diaktifkan:
 
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
