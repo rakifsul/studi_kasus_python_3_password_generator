@@ -24,23 +24,23 @@ class PWDGenDialog (BaseDialog):
         pass
 
     def on_check_lower_case(self, e):
-        print("chck " + str(e.IsChecked()))
+        print("check " + str(e.IsChecked()))
         self.pwd_gen.is_lower_case = e.IsChecked()
 
     def on_check_upper_case(self, e):
-        print("chck " + str(e.IsChecked()))
+        print("check " + str(e.IsChecked()))
         self.pwd_gen.is_upper_case = e.IsChecked()
 
     def on_check_numbers(self, e):
-        print("chck " + str(e.IsChecked()))
+        print("check " + str(e.IsChecked()))
         self.pwd_gen.is_numbers = e.IsChecked()
 
     def on_check_symbols(self, e):
-        print("chck " + str(e.IsChecked()))
+        print("check " + str(e.IsChecked()))
         self.pwd_gen.is_symbols = e.IsChecked()
 
     def on_check_unique_characters(self, e):
-        print("chck " + str(e.IsChecked()))
+        print("check " + str(e.IsChecked()))
         self.pwd_gen.unique_chars = e.IsChecked()
 
     def on_button_generate(self, e):
@@ -51,4 +51,12 @@ class PWDGenDialog (BaseDialog):
 
     def on_button_copy_to_clipboard(self, e):
         print("copy")
+        self.set_clipboard_text(self.m_text_ctrl_results.GetValue())
         pass
+
+    def set_clipboard_text(self, value):
+        text_data_object = wx.TextDataObject()
+        text_data_object.SetText(value)
+        if wx.TheClipboard.IsOpened() or wx.TheClipboard.Open():
+            wx.TheClipboard.SetData(text_data_object)
+            wx.TheClipboard.Close()
