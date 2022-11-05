@@ -1,15 +1,12 @@
 # import module
 import wx
-from PWDGenFrame import PWDGenFrame
+from PWDGenDialog import PWDGenDialog
 
 # buat objek aplikasi
 app = wx.App()
 
-# buat frame
-frm = PWDGenFrame()
+# buat dialog
+dialog = PWDGenDialog()
 
 # tampilkan
-frm.Show()
-
-# mulai event loop
-app.MainLoop()
+dialog.ShowModal()
