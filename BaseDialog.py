@@ -21,55 +21,55 @@ class BaseDialog ( wx.Dialog ):
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
-		bSizer2 = wx.BoxSizer( wx.VERTICAL )
+		m_b_sizer = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_checkBox1 = wx.CheckBox( self, wx.ID_ANY, u"Lower Case (asdfghjk...)", wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer2.Add( self.m_checkBox1, 0, wx.ALL, 5 )
+		self.m_check_lower_case = wx.CheckBox( self, wx.ID_ANY, u"Lower Case (asdfghjk...)", wx.DefaultPosition, wx.DefaultSize, 0 )
+		m_b_sizer.Add( self.m_check_lower_case, 0, wx.ALL, 5 )
 
-		self.m_checkBox2 = wx.CheckBox( self, wx.ID_ANY, u"Upper Case (ASDFGHJK...)", wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer2.Add( self.m_checkBox2, 0, wx.ALL, 5 )
+		self.m_check_upper_case = wx.CheckBox( self, wx.ID_ANY, u"Upper Case (ASDFGHJK...)", wx.DefaultPosition, wx.DefaultSize, 0 )
+		m_b_sizer.Add( self.m_check_upper_case, 0, wx.ALL, 5 )
 
-		self.m_checkBox3 = wx.CheckBox( self, wx.ID_ANY, u"Numbers (1234567...)", wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer2.Add( self.m_checkBox3, 0, wx.ALL, 5 )
+		self.m_check_numbers = wx.CheckBox( self, wx.ID_ANY, u"Numbers (1234567...)", wx.DefaultPosition, wx.DefaultSize, 0 )
+		m_b_sizer.Add( self.m_check_numbers, 0, wx.ALL, 5 )
 
-		self.m_checkBox4 = wx.CheckBox( self, wx.ID_ANY, u"Symbols (!@#$%^&...)", wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer2.Add( self.m_checkBox4, 0, wx.ALL, 5 )
+		self.m_check_symbols = wx.CheckBox( self, wx.ID_ANY, u"Symbols (!@#$%^&...)", wx.DefaultPosition, wx.DefaultSize, 0 )
+		m_b_sizer.Add( self.m_check_symbols, 0, wx.ALL, 5 )
 
-		self.m_checkBox5 = wx.CheckBox( self, wx.ID_ANY, u"Unique Characters (If Possible)", wx.DefaultPosition, wx.DefaultSize, 0 )
-		bSizer2.Add( self.m_checkBox5, 0, wx.ALL, 5 )
+		self.m_check_unique_characters = wx.CheckBox( self, wx.ID_ANY, u"Unique Characters (If Possible)", wx.DefaultPosition, wx.DefaultSize, 0 )
+		m_b_sizer.Add( self.m_check_unique_characters, 0, wx.ALL, 5 )
 
-		self.m_staticText1 = wx.StaticText( self, wx.ID_ANY, u"Length:", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_staticText1.Wrap( -1 )
+		self.m_static_text_length = wx.StaticText( self, wx.ID_ANY, u"Length:", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_static_text_length.Wrap( -1 )
 
-		bSizer2.Add( self.m_staticText1, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_static_text_length, 0, wx.ALL, 5 )
 
-		self.m_textCtrl2 = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_textCtrl2.SetMinSize( wx.Size( 9999,-1 ) )
+		self.m_text_ctrl_length = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_text_ctrl_length.SetMinSize( wx.Size( 9999,-1 ) )
 
-		bSizer2.Add( self.m_textCtrl2, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_text_ctrl_length, 0, wx.ALL, 5 )
 
-		self.m_staticText2 = wx.StaticText( self, wx.ID_ANY, u"Results:", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_staticText2.Wrap( -1 )
+		self.m_static_text_results = wx.StaticText( self, wx.ID_ANY, u"Results:", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_static_text_results.Wrap( -1 )
 
-		bSizer2.Add( self.m_staticText2, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_static_text_results, 0, wx.ALL, 5 )
 
-		self.m_textCtrl3 = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_textCtrl3.SetMinSize( wx.Size( 9999,-1 ) )
+		self.m_text_ctrl_results = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_text_ctrl_results.SetMinSize( wx.Size( 9999,-1 ) )
 
-		bSizer2.Add( self.m_textCtrl3, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_text_ctrl_results, 0, wx.ALL, 5 )
 
-		self.m_button4 = wx.Button( self, wx.ID_ANY, u"Generate", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_button4.SetMinSize( wx.Size( 9999,-1 ) )
+		self.m_button_generate = wx.Button( self, wx.ID_ANY, u"Generate", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_button_generate.SetMinSize( wx.Size( 9999,-1 ) )
 
-		bSizer2.Add( self.m_button4, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_button_generate, 0, wx.ALL, 5 )
 
-		self.m_button5 = wx.Button( self, wx.ID_ANY, u"Copy to Clipboard", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_button5.SetMinSize( wx.Size( 9999,-1 ) )
+		self.m_button_copy_to_clipboard = wx.Button( self, wx.ID_ANY, u"Copy to Clipboard", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_button_copy_to_clipboard.SetMinSize( wx.Size( 9999,-1 ) )
 
-		bSizer2.Add( self.m_button5, 0, wx.ALL, 5 )
+		m_b_sizer.Add( self.m_button_copy_to_clipboard, 0, wx.ALL, 5 )
 
 
-		self.SetSizer( bSizer2 )
+		self.SetSizer( m_b_sizer )
 		self.Layout()
 
 		self.Centre( wx.BOTH )
