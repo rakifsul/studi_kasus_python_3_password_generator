@@ -1,5 +1,11 @@
 # shb_py_gui_password_generator - Aplikasi desktop GUI Python untuk membuat password
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
+## Software Apakah Ini?
+
 Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python3.
 
 Aplikasi ini bisa menggunakan berbagai jenis karakter:
