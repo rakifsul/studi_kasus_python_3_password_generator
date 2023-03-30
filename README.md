@@ -2,7 +2,7 @@
 
 ## Software Apakah Ini?
 
-Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python3.
+Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python3...
 
 Aplikasi ini bisa menggunakan berbagai jenis karakter:
 
