@@ -19,6 +19,8 @@ Juga bisa menghasilkan password yang karakternya unik jika memungkinkan.
 
 ## Cara Mencoba Kode Ini
 
+Harus menggunakan Python 3.10.0.
+
 Untuk menjalankan aplikasi ini, install Python3, masuk ke dalam foldernya via command line, lalu:
 
 Buat virtual environment:
