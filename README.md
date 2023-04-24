@@ -13,9 +13,11 @@ Aplikasi ini bisa menggunakan berbagai jenis karakter:
 
 Juga bisa menghasilkan password yang karakternya unik jika memungkinkan.
 
-## Screenshot
+## Cara Kerja
 
-![ScreenShot](.readme-assets/shb_py_gui_password_generator-1.png?raw=true)
+User memasukkan konfigurasi dari password yang akan digenerate.
+
+Setelah prosedur generate password dijalankan, maka hasil password nya akan ditampilkan.
 
 ## Cara Mencoba Kode Ini
 
@@ -58,3 +60,7 @@ Untuk membuild exe:
 ```
 pyinstaller --onefile app.py
 ```
+
+## Screenshot
+
+![ScreenShot](.readme-assets/shb_py_gui_password_generator-1.png?raw=true)
