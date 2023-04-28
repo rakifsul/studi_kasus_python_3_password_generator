@@ -25,7 +25,6 @@ class PWDGen:
         processed = ""
         possible_length = 0
 
-        # Jika pilihan uppercase dicentang.
         if self.is_upper_case == True:
             processed += self.upper_case_chars
             possible_length += len(self.upper_case_chars)
@@ -44,7 +43,6 @@ class PWDGen:
             return result
 
         if self.unique_chars == True:
-            # Jika pilihan karakter unik dicentang.
             if self.length > possible_length:
                 result = "not possible"
                 return result
@@ -59,7 +57,6 @@ class PWDGen:
 
             result = ''.join(arr_list)
         else:
-            # Generate password.
             arr_list = []
 
             for _ in range(self.length):

@@ -2,7 +2,6 @@ import wx
 from BaseDialog import BaseDialog
 from PWDGen import PWDGen
 
-
 class PWDGenDialog (BaseDialog):
 
     def __init__(self):
