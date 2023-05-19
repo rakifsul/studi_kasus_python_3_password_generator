@@ -67,4 +67,4 @@ pyinstaller --onefile app.py
 
 ## Screenshot
 
-![ScreenShot](.readme-assets/shb_py_gui_password_generator-1.png?raw=true)
+![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb_py_gui_password_generator/screenshot-1.png?raw=true)
