@@ -6,10 +6,10 @@ Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python
 
 Aplikasi ini bisa menggunakan berbagai jenis karakter:
 
-- Lower case
-- Upper case
-- Numbers
-- Symbols
+-   Lower case
+-   Upper case
+-   Numbers
+-   Symbols
 
 Juga bisa menghasilkan password yang karakternya unik jika memungkinkan.
 
@@ -52,14 +52,28 @@ pip install -r requirements.txt
 Untuk menjalankannya dalam mode development:
 
 ```
-python app.py
+python App.py
 ```
 
-Untuk membuild exe:
+Untuk membuild exe DENGAN menyertakan console saat aplikasi dijalankan:
 
 ```
-pyinstaller --onefile app.py
+pyinstaller --onefile App.py
 ```
+
+Untuk membuild exe TANPA menyertakan console saat aplikasi dijalankan:
+
+```
+pyinstaller --onefile --noconsole App.py
+```
+
+## Apa Itu GUI.fbp?
+
+File GUI.fbp adalah template dari wxPython GUI yang dibuat dengan wxFormBuilder.
+
+wxFormBuilder bisa di-download di:
+
+https://github.com/wxFormBuilder/wxFormBuilder/releases
 
 ## Screenshot
 
