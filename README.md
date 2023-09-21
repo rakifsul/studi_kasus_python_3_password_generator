@@ -52,19 +52,19 @@ pip install -r requirements.txt
 Untuk menjalankannya dalam mode development:
 
 ```
-python App.py
+python app.py
 ```
 
 Untuk membuild exe DENGAN menyertakan console saat aplikasi dijalankan:
 
 ```
-pyinstaller --onefile App.py
+pyinstaller --onefile app.py
 ```
 
 Untuk membuild exe TANPA menyertakan console saat aplikasi dijalankan:
 
 ```
-pyinstaller --onefile --noconsole App.py
+pyinstaller --onefile --noconsole app.py
 ```
 
 ## Apa Itu GUI.fbp?
