@@ -1,5 +1,9 @@
 # shb_py_gui_password_generator - Aplikasi desktop GUI Python untuk membuat password
 
+## Link ke Halaman Web
+
+https://sfrfrlnc.com/shb_py_gui_password_generator/
+
 ## Software Apakah Ini?
 
 Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python3...
