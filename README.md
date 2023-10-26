@@ -83,7 +83,3 @@ File GUI.fbp adalah template dari wxPython GUI yang dibuat dengan wxFormBuilder.
 wxFormBuilder bisa di-download di:
 
 https://github.com/wxFormBuilder/wxFormBuilder/releases
-
-## Screenshot
-
-![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb_py_gui_password_generator/screenshot-1.png?raw=true)
