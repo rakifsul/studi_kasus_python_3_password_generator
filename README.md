@@ -6,8 +6,7 @@ https://sfrfrlnc.com/shb_py_gui_password_generator/
 
 ## Lisensi
 
-- AGPL 3.0 (untuk non komersial)
-- [Traktir License](https://sfrfrlnc.com/traktir-license/) (untuk komersial)
+- [Traktir License](https://sfrfrlnc.com/traktir-license/)
 
 ## Software Apakah Ini?
 
