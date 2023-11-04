@@ -4,10 +4,6 @@
 
 https://sfrfrlnc.com/shb_py_gui_password_generator/
 
-## Lisensi
-
-- [Traktir License](https://sfrfrlnc.com/traktir-license/)
-
 ## Software Apakah Ini?
 
 Ini adalah aplikasi desktop GUI untuk membuat password yang dibuat dengan Python3...
@@ -66,13 +62,13 @@ python app.py
 Untuk membuild exe DENGAN menyertakan console saat aplikasi dijalankan:
 
 ```
-pyinstaller --onefile app.py
+pyinstaller --onefile --icon=logo.ico app.py
 ```
 
 Untuk membuild exe TANPA menyertakan console saat aplikasi dijalankan:
 
 ```
-pyinstaller --onefile --noconsole app.py
+pyinstaller --onefile --noconsole --icon=logo.ico app.py
 ```
 
 ## Apa Itu GUI.fbp?

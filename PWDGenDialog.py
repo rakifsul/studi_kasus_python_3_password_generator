@@ -1,4 +1,5 @@
 import wx
+import webbrowser
 from BaseDialog import BaseDialog
 from PWDGen import PWDGen
 
@@ -20,6 +21,8 @@ class PWDGenDialog (BaseDialog):
         self.m_button_generate.Bind(wx.EVT_BUTTON, self.on_button_generate)
         self.m_button_copy_to_clipboard.Bind(
             wx.EVT_BUTTON, self.on_button_copy_to_clipboard)
+
+        self.m_button_traktir.Bind(wx.EVT_BUTTON, self.on_button_traktir)
 
     def __del__(self):
         pass
@@ -69,3 +72,9 @@ class PWDGenDialog (BaseDialog):
         if wx.TheClipboard.Open():
             wx.TheClipboard.SetData(text_data_object)
             wx.TheClipboard.Close()
+    
+    # saat tombol Wajib Traktir diklik.
+    def on_button_traktir(self, e):
+        print("on_button_traktir")
+        webbrowser.open("https://rebrand.ly/sfr-traktir")
+        pass
