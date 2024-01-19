@@ -17,7 +17,7 @@ import wx.xrc
 class BaseDialog ( wx.Dialog ):
 
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = wx.ID_ANY, title = u"SHB PY GUI Password Generator", pos = wx.DefaultPosition, size = wx.Size( 640,412 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MINIMIZE_BOX|wx.SYSTEM_MENU )
+		wx.Dialog.__init__ ( self, parent, id = wx.ID_ANY, title = u"SHB PY GUI Password Generator", pos = wx.DefaultPosition, size = wx.Size( 640,363 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MINIMIZE_BOX|wx.SYSTEM_MENU )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
@@ -67,11 +67,6 @@ class BaseDialog ( wx.Dialog ):
 		self.m_button_copy_to_clipboard.SetMinSize( wx.Size( 9999,-1 ) )
 
 		m_b_sizer.Add( self.m_button_copy_to_clipboard, 0, wx.ALL, 5 )
-
-		self.m_button_traktir = wx.Button( self, wx.ID_ANY, u"Traktir", wx.DefaultPosition, wx.DefaultSize, 0 )
-		self.m_button_traktir.SetMinSize( wx.Size( 9999,-1 ) )
-
-		m_b_sizer.Add( self.m_button_traktir, 0, wx.ALL, 5 )
 
 
 		self.SetSizer( m_b_sizer )
