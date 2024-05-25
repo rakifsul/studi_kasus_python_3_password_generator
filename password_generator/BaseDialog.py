@@ -17,7 +17,7 @@ import wx.xrc
 class BaseDialog ( wx.Dialog ):
 
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = wx.ID_ANY, title = u"SHB PY GUI Password Generator", pos = wx.DefaultPosition, size = wx.Size( 640,363 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MINIMIZE_BOX|wx.SYSTEM_MENU )
+		wx.Dialog.__init__ ( self, parent, id = wx.ID_ANY, title = u"Password Generator", pos = wx.DefaultPosition, size = wx.Size( 640,363 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MINIMIZE_BOX|wx.SYSTEM_MENU )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
