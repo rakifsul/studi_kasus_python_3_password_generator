@@ -31,7 +31,7 @@
 
 Harus menggunakan Python 3.10.11.
 
-Untuk menjalankan aplikasi ini, install Python3, masuk ke dalam foldernya via command line, lalu:
+Untuk menjalankan aplikasi ini, install Python3, masuk ke dalam folder "password_generator" via command line, lalu...
 
 Buat virtual environment:
 
@@ -581,7 +581,7 @@ Pertama, Baris ini:
 import wx
 ```
 
-Baris ini mengimpor modul wx, yang merupakan pustaka wxPython. wxPython adalah pustaka untuk membuat aplikasi GUI (Graphical User Interface) dalam bahasa pemrograman Python.
+Baris ini mengimpor modul wx, yang merupakan pustaka wxPython. wxPython adalah library untuk membuat aplikasi GUI dalam bahasa pemrograman Python.
 
 Kedua, Baris ini:
 
@@ -597,7 +597,7 @@ Ketiga, Baris ini:
 app = wx.App():
 ```
 
-Baris ini membuat sebuah instance dari kelas wx.App. Objek wx.App diperlukan oleh setiap aplikasi wxPython karena bertanggung jawab untuk mengelola event loop dan inisialisasi sistem GUI. Ini adalah langkah pertama dalam membuat aplikasi wxPython.
+Baris ini membuat sebuah instance dari kelas wx.App. Objek wx.App diperlukan oleh setiap aplikasi wxPython karena bertanggung jawab untuk mengelola event loop dan inisialisasi sistem GUI.
 
 Keempat, Baris ini:
 
@@ -613,7 +613,7 @@ Kelima, Baris ini:
 dialog.ShowModal():
 ```
 
-Baris ini menampilkan dialog sebagai modal dialog. Metode ShowModal() akan menampilkan dialog dan menghentikan interaksi dengan jendela lain dari aplikasi sampai dialog tersebut ditutup. Ini biasanya digunakan untuk mendapatkan input dari pengguna sebelum melanjutkan proses lainnya.
+Baris ini menampilkan dialog sebagai modal dialog. Metode ShowModal() akan menampilkan dialog dan menghalangi window dibelakangnya sampai dialog tersebut ditutup. Ini biasanya digunakan untuk mendapatkan input dari pengguna sebelum melanjutkan proses lainnya.
 
 ### File "password_generator/PWDGen.py"
 
