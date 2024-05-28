@@ -3,7 +3,7 @@
 -   [Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator](#studi-kasus-python-3-membuat-aplikasi-desktop-password-generator)
     -   [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
     -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Jika Ingin Traktir Saya](#jika-ingin-traktir-saya)
+    -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
     -   [Pendahuluan](#pendahuluan)
         -   [Latar Belakang](#latar-belakang)
         -   [Tujuan Studi Kasus](#tujuan-studi-kasus)
@@ -87,15 +87,15 @@ https://github.com/wxFormBuilder/wxFormBuilder/releases
 
 Source code project ini ada di folder "password_generator".
 
-## Jika Ingin Traktir Saya
+## Jika Ingin Mentraktir Saya
 
 Artikel ini gratis.
 
-Jika Anda ingin traktir saya, kunjungi link saya:
+Jika Anda ingin mentraktir saya, kunjungi link saya:
 
 https://taplink.cc/rakifsul
 
-Di sana ada link untuk traktirnya dan link lainnya.
+Di sana ada link untuk mentraktir saya dan link lainnya.
 
 Selamat menikmati.
 
