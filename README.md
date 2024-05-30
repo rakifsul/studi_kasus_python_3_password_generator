@@ -1,9 +1,9 @@
 # Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator
 
 -   [Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator](#studi-kasus-python-3-membuat-aplikasi-desktop-password-generator)
-    -   [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
     -   [Source Code Project Ini](#source-code-project-ini)
     -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
+    -   [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
     -   [Pendahuluan](#pendahuluan)
         -   [Latar Belakang](#latar-belakang)
         -   [Tujuan Studi Kasus](#tujuan-studi-kasus)
@@ -26,6 +26,22 @@
         -   [File "password_generator/PWDGen.py"](#file-password_generatorpwdgenpy)
         -   [File "password_generator/PWDGenDialog.py" dan "password_generator/BaseDialog.py"](#file-password_generatorpwdgendialogpy-dan-password_generatorbasedialogpy)
     -   [Penutup](#penutup)
+
+## Source Code Project Ini
+
+Source code project ini ada di folder "password_generator".
+
+## Jika Ingin Mentraktir Saya
+
+Artikel ini gratis.
+
+Jika Anda ingin mentraktir saya, kunjungi link saya:
+
+https://taplink.cc/rakifsul
+
+Di sana ada link untuk mentraktir saya dan link lainnya.
+
+Selamat menikmati.
 
 ## Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu
 
@@ -82,22 +98,6 @@ File GUI.fbp adalah template dari wxPython GUI yang dibuat dengan wxFormBuilder.
 wxFormBuilder bisa di-download di:
 
 https://github.com/wxFormBuilder/wxFormBuilder/releases
-
-## Source Code Project Ini
-
-Source code project ini ada di folder "password_generator".
-
-## Jika Ingin Mentraktir Saya
-
-Artikel ini gratis.
-
-Jika Anda ingin mentraktir saya, kunjungi link saya:
-
-https://taplink.cc/rakifsul
-
-Di sana ada link untuk mentraktir saya dan link lainnya.
-
-Selamat menikmati.
 
 ## Pendahuluan
 
