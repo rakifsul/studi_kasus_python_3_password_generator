@@ -2,7 +2,7 @@
 
 -   [Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator](#studi-kasus-python-3-membuat-aplikasi-desktop-password-generator)
     -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
+    -   [Link Penting](#link-penting)
     -   [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
     -   [Pendahuluan](#pendahuluan)
         -   [Latar Belakang](#latar-belakang)
@@ -31,15 +31,17 @@
 
 Source code project ini ada di folder "password_generator".
 
-## Jika Ingin Mentraktir Saya
+## Link Penting
 
-Artikel ini gratis.
+Kunjungi juga link saya.
 
-Jika Anda ingin mentraktir saya, kunjungi link saya:
+Link untuk traktir atau beli produk saya:
 
-https://taplink.cc/rakifsul
+-   https://karyakarsa.com/rakifsul
 
-Di sana ada link untuk mentraktir saya dan link lainnya.
+Link selengkapnya:
+
+-   https://taplink.cc/rakifsul
 
 Selamat menikmati.
 
