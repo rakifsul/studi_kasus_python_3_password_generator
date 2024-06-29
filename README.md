@@ -1,49 +1,39 @@
 # Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator
 
--   [Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator](#studi-kasus-python-3-membuat-aplikasi-desktop-password-generator)
-    -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Link Penting](#link-penting)
-    -   [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
-    -   [Pendahuluan](#pendahuluan)
-        -   [Latar Belakang](#latar-belakang)
-        -   [Tujuan Studi Kasus](#tujuan-studi-kasus)
-        -   [Prasyarat Studi Kasus](#prasyarat-studi-kasus)
-        -   [Mengapa Saya Menggunakan wxPyhton](#mengapa-saya-menggunakan-wxpyhton)
-    -   [Langkah-Langkah](#langkah-langkah)
-        -   [Membuat folder project "password_generator"](#membuat-folder-project-password_generator)
-        -   [Mengkopi file logo.ico ke "password_generator/logo.ico"](#mengkopi-file-logoico-ke-password_generatorlogoico)
-        -   [Membuat file "password_generator/requirements.txt"](#membuat-file-password_generatorrequirementstxt)
-        -   [Membuat file "password_generator/app.py"](#membuat-file-password_generatorapppy)
-        -   [Membuat file "password_generator/PWDGen.py"](#membuat-file-password_generatorpwdgenpy)
-        -   [Membuat file "password_generator/PWDGenDialog.py"](#membuat-file-password_generatorpwdgendialogpy)
-        -   [Membuat file "password_generator/BaseDialog.py"](#membuat-file-password_generatorbasedialogpy)
-        -   [Sebenarnya, "password_generator/BaseDialog.py" Dibuat Dengan Aplikasi Apa?](#sebenarnya-password_generatorbasedialogpy-dibuat-dengan-aplikasi-apa)
-        -   [Pembuatan Struktur Project Selesai](#pembuatan-struktur-project-selesai)
-    -   [Pembahasan](#pembahasan)
-        -   [File "password_generator/logo.ico"](#file-password_generatorlogoico)
-        -   [File "password_generator/requirements.txt"](#file-password_generatorrequirementstxt)
-        -   [File "password_generator/app.py"](#file-password_generatorapppy)
-        -   [File "password_generator/PWDGen.py"](#file-password_generatorpwdgenpy)
-        -   [File "password_generator/PWDGenDialog.py" dan "password_generator/BaseDialog.py"](#file-password_generatorpwdgendialogpy-dan-password_generatorbasedialogpy)
-    -   [Penutup](#penutup)
+- [Studi Kasus Python 3 Membuat Aplikasi Desktop Password Generator](#studi-kasus-python-3-membuat-aplikasi-desktop-password-generator)
+  - [Source Code Project Ini](#source-code-project-ini)
+  - [Link untuk Traktir](#link-untuk-traktir)
+  - [Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu](#cara-mencoba-kode-ini-tanpa-membaca-artikelnya-terlebih-dahulu)
+  - [Pendahuluan](#pendahuluan)
+    - [Latar Belakang](#latar-belakang)
+    - [Tujuan Studi Kasus](#tujuan-studi-kasus)
+    - [Prasyarat Studi Kasus](#prasyarat-studi-kasus)
+    - [Mengapa Saya Menggunakan wxPyhton](#mengapa-saya-menggunakan-wxpyhton)
+  - [Langkah-Langkah](#langkah-langkah)
+    - [Membuat folder project "password\_generator"](#membuat-folder-project-password_generator)
+    - [Mengkopi file logo.ico ke "password\_generator/logo.ico"](#mengkopi-file-logoico-ke-password_generatorlogoico)
+    - [Membuat file "password\_generator/requirements.txt"](#membuat-file-password_generatorrequirementstxt)
+    - [Membuat file "password\_generator/app.py"](#membuat-file-password_generatorapppy)
+    - [Membuat file "password\_generator/PWDGen.py"](#membuat-file-password_generatorpwdgenpy)
+    - [Membuat file "password\_generator/PWDGenDialog.py"](#membuat-file-password_generatorpwdgendialogpy)
+    - [Membuat file "password\_generator/BaseDialog.py"](#membuat-file-password_generatorbasedialogpy)
+    - [Sebenarnya, "password\_generator/BaseDialog.py" Dibuat Dengan Aplikasi Apa?](#sebenarnya-password_generatorbasedialogpy-dibuat-dengan-aplikasi-apa)
+    - [Pembuatan Struktur Project Selesai](#pembuatan-struktur-project-selesai)
+  - [Pembahasan](#pembahasan)
+    - [File "password\_generator/logo.ico"](#file-password_generatorlogoico)
+    - [File "password\_generator/requirements.txt"](#file-password_generatorrequirementstxt)
+    - [File "password\_generator/app.py"](#file-password_generatorapppy)
+    - [File "password\_generator/PWDGen.py"](#file-password_generatorpwdgenpy)
+    - [File "password\_generator/PWDGenDialog.py" dan "password\_generator/BaseDialog.py"](#file-password_generatorpwdgendialogpy-dan-password_generatorbasedialogpy)
+  - [Penutup](#penutup)
 
 ## Source Code Project Ini
 
 Source code project ini ada di folder "password_generator".
 
-## Link Penting
-
-Kunjungi juga link saya.
-
-Link untuk traktir atau beli produk saya:
+## Link untuk Traktir
 
 -   https://karyakarsa.com/rakifsul
-
-Link selengkapnya:
-
--   https://taplink.cc/rakifsul
-
-Selamat menikmati.
 
 ## Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu
 
