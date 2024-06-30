@@ -33,7 +33,7 @@ Source code project ini ada di folder "password_generator".
 
 ## Link untuk Traktir
 
--   https://karyakarsa.com/rakifsul
+-   https://karyakarsa.com/rakifsul/info
 
 ## Cara Mencoba Kode Ini Tanpa Membaca Artikelnya Terlebih Dahulu
 
